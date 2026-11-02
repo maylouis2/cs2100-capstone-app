@@ -60,4 +60,18 @@ h2 {
     font-family: Georgia, serif;
 }
 
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: no
+}
+
 
