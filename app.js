@@ -8,15 +8,19 @@ class Show {
         this.image = image;
     }
 }
+let tvsync = [];
 
 console.log("app.js loading");
 //fetch() api
 fetch("https://api.tvmaze.com/search/shows?q=spider-man")
 .then(response => response.json())
 .then(data => {
-    const shows = [];
-    
-
-});
+   tvsync = data;
+   displayShows(tvsync);
+})
 .catch(error => console.error(error));
+
+function displayShow(shows) {
+    
+}
 
