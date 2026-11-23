@@ -41,6 +41,8 @@ function displayShow(shows) {
             );
         let card =
             document.createElement("section");
+      
+
 
     }
 }
