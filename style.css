@@ -88,5 +88,11 @@ footer li {
 footer a {
     text-decoration: none;
 }
+#logo{
+    max-width: 200px;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
 
 

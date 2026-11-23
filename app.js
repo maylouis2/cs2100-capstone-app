@@ -13,6 +13,10 @@ console.log("app.js loading");
 //fetch() api
 fetch("https://api.tvmaze.com/search/shows?q=spider-man")
 .then(response => response.json())
-.then(data => console.log(data))
+.then(data => {
+    const shows = [];
+    
+
+});
 .catch(error => console.error(error));
 
