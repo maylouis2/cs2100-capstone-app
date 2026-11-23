@@ -21,6 +21,14 @@ fetch("https://api.tvmaze.com/search/shows?q=spider-man")
 .catch(error => console.error(error));
 
 function displayShow(shows) {
-    
+      let collection =
+        document.getElementById("showFeature");
+    if (!collection) {
+        return;
+    }
+    collection.innerHTML = "";
+    let fragment =
+        document.createDocumentFragment();
+
 }
 
