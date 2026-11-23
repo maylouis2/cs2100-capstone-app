@@ -55,9 +55,24 @@ section {
     padding: 1em;
 }
 
+#latest {
+    background-color: #D6EAF8;
+}
+#rated{
+    background-color: #FFF3CD;
+}
+#featured{
+    background-color: #D5F5E3;
+}
+
 h2 {
     color: #1976D2;
     font-family: Georgia, serif;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
 }
 
 footer ul {
@@ -71,7 +86,7 @@ footer li {
 }
 
 footer a {
-    text-decoration: no
+    text-decoration: none;
 }
 
 

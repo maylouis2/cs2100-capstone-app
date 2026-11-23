@@ -8,8 +8,10 @@ class Show {
         this.image = image;
     }
 }
+
+console.log("app.js loading");
 //fetch() api
-fetch("https://api.tvmaze.com/search/shows?q=the-chosen")
+fetch("https://api.tvmaze.com/search/shows?q=spider-man")
 .then(response => response.json())
 .then(data => console.log(data))
 .catch(error => console.error(error));
