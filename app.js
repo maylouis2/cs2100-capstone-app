@@ -30,5 +30,18 @@ function displayShow(shows) {
     let fragment =
         document.createDocumentFragment();
 
+    for (let item of shows){
+        let show = 
+        new Show(
+                item.show.id,
+                item.show.name,
+                item.show.genres,
+                item.show.rating,
+                item.show.image
+            );
+        let card =
+            document.createElement("section");
+
+    }
 }
 
